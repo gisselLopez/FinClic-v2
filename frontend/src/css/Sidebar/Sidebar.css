@@ -1,0 +1,163 @@
+.Sidebar-menu {
+    background-color: #14151c;
+    height: 100%;
+    position: fixed;
+    margin-left: 0px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    /* Asegúrate de que el sidebar se comporte como una columna */
+    /* Añade el borde redondeado */
+    z-index: 1;
+    transition: left 0.3s;
+        /* Agregamos una transición al abrir y cerrar */
+   
+}
+/* Estilos para el sidebar */
+.Sidebar-content {
+    display: none;
+}
+
+.Sidebar-content.active {
+    display: block;
+}
+
+.SidebarList {
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 65px;
+   
+}
+
+.SidebarList .row {
+  
+    height: 55px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    position: relative;
+   
+}
+/* Estilos para mostrar el sidebar cuando el botón está activado */
+.Sidebar-menu.active {
+    left: 0;
+    /* Muestra el Sidebar alineado a la izquierda */
+}
+.SidebarList .row:hover {
+    cursor: pointer;
+    background-color: #3d3d3e;
+    border-radius: 10px;
+}
+
+.SidebarList .row #active {
+    background-color: #3d3d3e;
+}
+
+.row #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+    color: rgb(255, 250, 250);    
+    font-size: 18px;
+}
+
+.row #title {
+    flex: 70%;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* Si el Sidebar está cerrado, ocultamos el texto pero mantenemos el espacio ocupado */
+    white-space: nowrap;
+        overflow: hidden;
+}
+.sidebar-text {
+    display: inline-block;
+}
+.sidebar-text.hidden {
+    display: none;
+}
+/* Agrega los estilos para el botón toggle */
+.Sidebar-toggle-btn {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: -12px;
+    transform: translateY(-50%);
+    border: none;
+    height: 30px;
+    width: 35px;
+    background-color: #14151c;
+
+}
+
+/* Estilos para el botón de los submenús */
+/* Estilos para el botón del submenú */
+.submenu-toggle {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submenu-toggle:focus {
+    background-color: transparent;
+    /* Cambia el color de fondo en enfoque */
+}
+
+/* Estilos para los submenús */
+.submenu-item {
+    background-color: #14151c;
+    color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #3d3d3e;
+    transition: background-color 0.3s;
+}
+
+/* Estilos para el elemento activo del submenú */
+.submenu-active {
+    background-color: #3d3d3e;
+}
+
+/* Estilos para el botón "Cerrar sesión" */
+.logout-button {
+    margin-top: auto;
+    /* Coloca el botón al final del sidebar */
+}
+
+.logout-button button {
+    display: grid;
+    place-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 195px;
+}
+
+.logout-button button .logout-icon {
+    margin-right: 18px;
+    color: rgb(255, 250, 250);
+    font-size: 18px;
+}
+
+/* Estilo para cambiar el color del botón al pasar el cursor sobre él */
+.logout-button button:hover {
+    background-color: #14151c;
+    /* Cambia a un color diferente al pasar el cursor */
+}
+

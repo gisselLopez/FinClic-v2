@@ -1,0 +1,66 @@
+/* ListaClientes.css */
+
+/* Estilos para hacer la tabla más pequeña */
+/*
+.my-table {
+    font-size: 14px;
+    /* Tamaño de la fuente más pequeño /
+    width: 100%;
+    /* Ajusta el ancho de la tabla /
+    max-width: 850px;
+    /* Establece un máximo para el ancho de la tabla /
+    margin: 0 auto;
+    margin-left: 400px;
+    border-collapse: collapse;
+}
+
+/* Estilos para agregar borde entre los th /
+/* En tu archivo .css /
+
+
+.my-table th,
+.my-table td {
+    padding: 10px;
+    border: 1px solid #dfd9e5;
+}
+
+/* Estilos para el cuerpo de la tabla con color mostaza /
+.my-table tbody {
+    background-color: #070b17;
+    /* Color mostaza /
+    border: 1px solid #dfd9e5;
+}
+
+/* Estilos para los títulos de la tabla con color más claro /
+.my-table thead th {
+    background-color: #bfb2cc;
+    /* Color más claro /
+}
+.my-container{
+    margin-top: 100px;
+}
+
+
+.my-Link {
+    margin-right: 250px;
+    background-color: #bfb2cc;
+    font-size: 21px;
+    /* Ajusta el tamaño del enlace /
+    width: 120px;
+    height: 40px;
+    /* Añade un efecto de transición para el cambio de color /
+    transition: background-color 0.3s ease;
+    border: 2px solid #dfd9e5;
+    text-decoration: none;
+    color: #000;
+    font-style: normal;
+}
+
+/* Efecto hover /
+.my-Link:hover {
+    background-color: #dfd9e5;
+    /* Cambia el color a morado cuando se hace hover /
+    cursor: pointer;
+    /* Cambia el cursor a una mano para indicar que es interactivo /
+}
+*/

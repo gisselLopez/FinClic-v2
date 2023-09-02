@@ -1,0 +1,53 @@
+.title{
+    margin-top: 50px;
+    margin-left: 550px;
+    font-family: cursive;
+}
+.m-tabla{
+    margin-top: 15px;
+    margin-left: 300px;
+    font-size: 11px;
+    max-width: 140vh;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.credit-details {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: -20px;
+}
+
+
+.table-containers {
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.my-button{
+    margin-top: 12px;
+    margin-left: 12px;
+    width: 50px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbars-pagination{
+    margin-top: auto;
+    margin-left: 175vh;
+}
+
+.details{
+    border: 1px solid rgb(212, 212, 212);
+    padding: 3px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
+
+}

@@ -1,0 +1,25 @@
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+
+/* Estilos para el contenedor del formulario */
+.my-custom-form {
+    max-width: 400px;
+    min-height: 500px;
+    height: 600px;
+    width: 100%;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+
+
+

@@ -1,0 +1,44 @@
+
+/* Estilo para el contenedor del formulario */
+.form_container {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el botón */
+/*
+.btn-primary {
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #070d2a;
+    border: 1px solid#cfc6d9;
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #dfd9e5;
+    /* Color de fondo cuando el mouse pasa por encima /
+}
+
+/* Estilo para el fondo del contenedor principal /
+.bg-secondary {
+    background-color: #ffffff;
+}
+*/
+/* Estilo para el enlace dentro del párrafo */
+.link {
+    margin-top: 15px;
+    
+}
+
+
+/* Estilo para el enlace dentro del párrafo */
+p a {
+    margin-top: 15px;
+    /* Agregar un margen superior de 15px */
+    /* Otros estilos adicionales para el enlace si es necesario */
+}

@@ -1,0 +1,17 @@
+/* Estilos para el header */
+header {
+    padding: 10px;
+    background-color: #deeaf6;
+    box-shadow: 0px 2px 4px rgba(32, 39, 125, 0.1);
+    position: fixed;
+    top: 0;
+    left: 250px;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     /* Asegura que el Header aparezca en la parte superior */
+        
+}
+
